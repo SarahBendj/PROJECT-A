@@ -1,0 +1,9 @@
+@use 'src/styles/vars';
+
+.app {
+padding: 1rem;
+color: white;
+min-height: 100vh;
+background-color: #2546ce;
+background-image: linear-gradient(135deg, #13275d 0%, #72769f 30%, #13275d 50%);
+}

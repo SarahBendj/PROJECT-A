@@ -1,0 +1,65 @@
+@use './src/styles/vars';
+
+.input{
+  padding: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+
+  &-text{
+    padding: 0.5rem;
+    border-bottom: 2px solid vars.$darkblue;
+    font-weight: 600;
+  }
+  &-textArea {
+    padding: 0.2rem;
+    border-bottom: 2px solid vars.$darkblue;
+    min-height: 6rem;
+    
+
+  }
+}
+
+.error{
+  font-size: 1rem;
+  padding: 0.2rem;
+  color: rgb(111, 10, 30);
+  display: block;
+}
+//* BUTTON BLOC
+
+.btn {
+  margin: 1rem;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  border: none;
+  background-color: vars.$deepblue;
+  color : white;
+  font-weight: 600;
+  
+  &:hover {
+    background-color: vars.$darkblue;
+    scale: 1.05;
+    cursor: pointer;
+  }
+}
+.hidden{
+  display: none;
+}
+
+//*SELECT BLOC
+.select {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  color: beige;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  font-size: 1.05rem;
+ 
+}
